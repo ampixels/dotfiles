@@ -17,7 +17,8 @@ ZDOTDIR="${HOME}/.config/zsh"
 ZSHDDIR="${HOME}/.config/zsh.d"
 
 # oh-my-zsh
-export ZSH="/usr/share/oh-my-zsh"
+# export ZSH="/usr/share/oh-my-zsh"
+export ZSH="${HOME}/.oh-my-zsh"
 
 ZSH_THEME="agnoster"
 
@@ -37,7 +38,7 @@ source ${ZSH}/oh-my-zsh.sh
 
 ##################
 
-export EDITOR=nano
-export VISUAL=nano
+export EDITOR=nvim
+export VISUAL=nvim
 export PATH="${HOME}/.poetry/bin:${HOME}/.local/bin:/usr/local/bin:${PATH}"
-. "/home/pico/.acme.sh/acme.sh.env"
+
